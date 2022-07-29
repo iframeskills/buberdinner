@@ -1,0 +1,15 @@
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\bin\Debug\net6.0\BuberDinner.Application.deps.json
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\bin\Debug\net6.0\BuberDinner.Application.dll
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\bin\Debug\net6.0\BuberDinner.Application.pdb
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.csproj.AssemblyReference.cache
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.AssemblyInfoInputs.cache
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.AssemblyInfo.cs
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.csproj.CoreCompileInputs.cache
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.dll
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\refint\BuberDinner.Application.dll
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.pdb
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\ref\BuberDinner.Application.dll
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\bin\Debug\net6.0\BuberDinner.Domain.dll
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\bin\Debug\net6.0\BuberDinner.Domain.pdb
+C:\Projects\buberdinner\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.csproj.CopyComplete
