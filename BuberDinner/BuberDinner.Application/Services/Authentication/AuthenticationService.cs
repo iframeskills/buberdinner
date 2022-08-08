@@ -28,6 +28,7 @@ public class AuthenticationService : IAuthenticationService
             email,
             token);
     }
+
     public AuthenticationResult Login(string email, string password)
     {
         return new AuthenticationResult(
