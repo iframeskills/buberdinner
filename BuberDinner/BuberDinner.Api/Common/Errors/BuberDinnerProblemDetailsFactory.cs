@@ -1,11 +1,14 @@
-namespace BuberDinner.Api.Errors;
 
 using System.Diagnostics;
+using BuberDinner.Api.Common.Errors.Http;
+using ErrorOr;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Options;
+
+namespace BuberDinner.Api.Common.Errors;
 
 // source: DefaultProblemDetailsFactory (from dotnetcore source repo in github) - necessary because internal sealed
 // https://raw.githubusercontent.com/dotnet/aspnetcore/f6362e06e8228588fe3d82bd03b7e16a7bd91bf0/src/Mvc/Mvc.Core/src/Infrastructure/DefaultProblemDetailsFactory.cs
@@ -95,6 +98,10 @@ public class BuberDinnerProblemDetailsFactory : ProblemDetailsFactory
             problemDetails.Extensions["traceId"] = traceId;
         }
 
-        problemDetails.Extensions.Add("customProperty", "customValue");
+        var errors = httpContext?.Items[HttpContextItemKeys.Errors] as List<Error>;
+        if (errors is not null)
+        {
+            problemDetails.Extensions.Add("errorCodes", errors.Select(e => e.Code));
+        }
     }
 }
